@@ -12,7 +12,7 @@ import JobStatusPage from "./pages/JobStatusPage";
 import ResumeFeedback from "./pages/ResumeFeedback";
 import JDAnalysis from "./pages/JDAnalysis";
 import Analytics from "./pages/Analytics";
-import AppLayout from "./components/AppLayout";
+import ResponsiveAppLayout from "@/components/ResponsiveAppLayout";
 import NotFound from "./pages/NotFound";
 import { JobProvider } from "./contexts/JobContext";
 import { ThemeProvider } from "./contexts/ThemeContext";
@@ -45,7 +45,7 @@ const App = () => (
                   
                   {/* Protected routes */}
                   <Route element={<ProtectedRoute />}>
-                    <Route element={<AppLayout />}>
+                    <Route element={<ResponsiveAppLayout />}>
                       <Route path="/home" element={<Home />} />
                       <Route path="/job-tracker" element={<JobTracker />} />
                       <Route path="/job-tracker/:status" element={<JobStatusPage />} />

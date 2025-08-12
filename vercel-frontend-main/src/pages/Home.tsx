@@ -13,7 +13,7 @@ const Home = () => {
   const [addModalOpen, setAddModalOpen] = useState(false);
 
   // Get 5 most recent jobs
-  const recentJobs = [...jobs]
+  const recentJobs = [...jobs] 
     .sort(
       (a, b) =>
         new Date(b.dateApplied).getTime() - new Date(a.dateApplied).getTime()

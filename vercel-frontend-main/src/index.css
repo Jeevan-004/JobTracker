@@ -1,6 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
 
 @tailwind base;
+
+.job-tile {
+  background-color: #3E3E81; /* A lighter shade from the sidebar */
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
 @tailwind components;
 @tailwind utilities;
 

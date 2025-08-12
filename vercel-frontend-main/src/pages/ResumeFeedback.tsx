@@ -167,7 +167,7 @@ const ResumeFeedback: React.FC = () => {
                 
                 
                 <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
-                  <TabsList className="flex flex-wrap justify-center items-center w-full gap-2 md:gap-8 bg-gray-800/50 backdrop-blur-sm p-6 rounded-xl border border-gray-700 shadow-lg mb-6">
+                  <TabsList className="tabs-scroll-container w-full gap-2 md:gap-8 bg-gray-800/50 backdrop-blur-sm p-6 rounded-xl border border-gray-700 shadow-lg mb-6">
                     <TabsTrigger
                       value="overall"
                       className="px-3 py-2 text-sm font-medium rounded-lg data-[state=active]:bg-gradient-to-r data-[state=active]:from-green-500 data-[state=active]:to-emerald-600 data-[state=active]:text-white transition-all duration-300"

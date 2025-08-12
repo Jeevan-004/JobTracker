@@ -4,6 +4,12 @@
 
 /* Tablet and Mobile */
 @media (max-width: 768px) {
+  .tabs-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem; /* Adds some space between wrapped tabs */
+  }
+
   .sidebar-container {
     display: none; /* Hide sidebar on small screens */
   }

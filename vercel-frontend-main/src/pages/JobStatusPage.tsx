@@ -168,8 +168,8 @@ const JobStatusPage = () => {
     <div className={`container mx-auto max-w-6xl px-4 py-8 bg-gradient-to-br ${getBgGradient()} rounded-3xl`}>
       <div className="mb-8 flex justify-between items-center">
         <div>
-          <h1 className="text-3xl font-bold text-jobwise-dark">{statusTitle}</h1>
-          <p className="text-gray-600">
+          <h1 className="text-3xl text-white font-bold text-jobwise-dark">{statusTitle}</h1>
+          <p className="text-gray-300">
             Manage jobs in the {status} stage
           </p>
         </div>
@@ -204,7 +204,7 @@ const JobStatusPage = () => {
                 <CardContent className="p-6">
                   <div className="flex flex-col h-full">
                     <div className="mb-4">
-                      <h3 className="text-xl font-bold text-jobwise-dark line-clamp-1">{job.company}</h3>
+                      <h3 className="text-xl font-bold text-jobwise line-clamp-1">{job.company}</h3>
                       <p className="text-jobwise-medium font-medium">{job.role}</p>
                     </div>
                     <div className="space-y-2 text-sm text-gray-600 flex-grow">

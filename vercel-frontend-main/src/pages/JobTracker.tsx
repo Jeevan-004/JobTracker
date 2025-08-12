@@ -54,9 +54,9 @@ const JobTracker = () => {
   return (
     <div className="container mx-auto max-w-6xl px-4 py-8">
       <div className="mb-8">
-        <h1 className="text-3xl font-bold text-jobwise-dark">Job Tracker</h1>
-        <p className="text-gray-600">
-          Track and manage all your job applications in one place
+        <h1 className="text-3xl text-white font-bold text-jobwise-dark">Job Tracker</h1>
+        <p className="text-white">
+        Track and manage all your job applications in one place
         </p>
       </div>
 

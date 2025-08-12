@@ -2,6 +2,11 @@
 
 @tailwind base;
 
+body {
+  background: linear-gradient(180deg, #191949 0%, #05052e 100%);
+}
+
+
 .job-tile {
   background-color: #3E3E81; /* A lighter shade from the sidebar */
   border-radius: 0.5rem;
